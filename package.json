@@ -4,12 +4,13 @@
   "description": "I was doing an internship at Code Alpha, and during my internship, I was given tasks which I have performed.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
+    "mongo": "^0.1.0",
     "mongoose": "^8.5.1",
     "nanoid": "^5.0.7",
     "nodemon": "^3.1.4"

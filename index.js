@@ -1,6 +1,9 @@
 const express = require("express");
-
+const { connectToMongoDB } = require("./connect");
+const urlRoute = require('./routes/url');
 const app = express();
 const PORT = 8001;
 
+connectToMongoDB('mongodb://localhost:27017/Code-Alpha-Internship-Tasks').then(() => console.log('Mongodb Connected'));
+app.use("/url",urlRoute);
 app.listen(PORT,() => console.log(`Server Started atr Port`))
