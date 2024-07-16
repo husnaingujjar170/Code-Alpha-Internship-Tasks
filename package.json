@@ -1,13 +1,13 @@
 {
-  "name": "shorturlcreater",
+  "name": "code-alpha-internship-tasks",
   "version": "1.0.0",
-  "main": "task.js",
+  "description": "I was doing an internship at Code Alpha, and during my internship, I was given tasks which I have performed.",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "express": "^4.19.2",
     "mongoose": "^8.5.1"
